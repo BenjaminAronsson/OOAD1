@@ -1,0 +1,5 @@
+/Users/dev/Documents/OOAD/OOAD_labb1/OOAD_labb1/obj/Debug/OOAD_labb1.csprojAssemblyReference.cache
+/Users/dev/Documents/OOAD/OOAD_labb1/OOAD_labb1/bin/Debug/OOAD_labb1.exe
+/Users/dev/Documents/OOAD/OOAD_labb1/OOAD_labb1/bin/Debug/OOAD_labb1.pdb
+/Users/dev/Documents/OOAD/OOAD_labb1/OOAD_labb1/obj/Debug/OOAD_labb1.exe
+/Users/dev/Documents/OOAD/OOAD_labb1/OOAD_labb1/obj/Debug/OOAD_labb1.pdb

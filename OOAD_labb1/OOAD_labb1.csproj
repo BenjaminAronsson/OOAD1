@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{0B827181-9D96-4C8F-9EE9-F1988F129382}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OOAD_labb1</RootNamespace>
+    <AssemblyName>OOAD_labb1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Computer.cs" />
+    <Compile Include="CommandManager.cs" />
+    <Compile Include="IAction.cs" />
+    <Compile Include="ChangeColorAction.cs" />
+    <Compile Include="ChangeRamAction.cs" />
+    <Compile Include="ChangeCoolerAction.cs" />
+    <Compile Include="ChangeBrandAction.cs" />
+    <Compile Include="ChangeClockSpeedAction.cs" />
+    <Compile Include="ChangeGpuAction.cs" />
+    <Compile Include="ChangeFansAction.cs" />
+    <Compile Include="ChangeStorageAction.cs" />
+    <Compile Include="Channel.cs" />
+    <Compile Include="Display.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
